@@ -32,7 +32,7 @@ Route::get('/emp/show', function (Request $request) {
     
         return view('welcome' , [
             'emp' => Employee::where('id', '$reuqest'),
-            ]);
+        ]);
 
 });
 
